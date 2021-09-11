@@ -1,0 +1,29 @@
+.store_val{
+    background-color: #d8d8d8;
+    margin: 1rem 30%;
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            margin: 1rem 0;
+            label{
+                float: left;
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            input , textarea{
+                padding: 1rem 1.5rem;
+                width: 30vw;
+                font-size: 1.5rem;
+            }
+            .btn_submit{
+                padding: 1rem 5rem;
+                font-size: 3rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

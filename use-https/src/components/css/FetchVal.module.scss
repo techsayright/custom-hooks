@@ -1,0 +1,22 @@
+.FetchVal{
+    background-color: pink;
+    padding: 2rem;
+    margin: 0 30%;
+
+    .btn_fetch{
+        width: 100%;
+        button{
+            width: 70%;
+            padding: 2rem 0;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    }
+    .fetched_data{
+        margin: 1rem 0;
+
+        img{
+            width: 15rem;
+        }
+    }
+}
